@@ -1,0 +1,20 @@
+ATH
+AT+QPCMV=1,2
+AT+QCFG="band",53,7FF,0,1
+AT+QCFG="band"
+AT+QCFG="nwscanmode”,0,1
+AT+QCFG="nwscanseq”
+AT+QPCMV=1,0
+AT+QGPSCFG="outport","none"
+AT+QPCMV?
+At+CREG?
+AT+COPS?
+AT+CGREG?
+AT+QNWINFO
+ATD986516203;
+AT+QPCMV=1,0
+AT+QDAI?
++QDAI: 3,0,0,4,0,0,1,1
+
++QDAI: 3,0,0,4,0,0,0,1
+AT+QDAI=3,0,0,4,0,0,0,1
